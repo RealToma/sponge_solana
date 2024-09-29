@@ -1,0 +1,15 @@
+.card {
+  background: url('/wood-card.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.blur {
+  background: linear-gradient(180deg, #ebccb2 50%, #8cb2d1 72.46%);
+  filter: blur(20px);
+
+  @media (max-width: 900px) {
+    filter: blur(12px);
+  }
+}

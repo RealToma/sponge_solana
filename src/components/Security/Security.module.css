@@ -1,0 +1,8 @@
+.blur {
+  background: linear-gradient(#c3d2a8 50%, #060609 72%);
+  filter: blur(20px);
+  
+  @media (max-width: 900px) {
+    filter: blur(12px);
+  }
+}
